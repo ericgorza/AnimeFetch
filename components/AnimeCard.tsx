@@ -25,7 +25,7 @@ const variants = {
 
 function AnimeCard({ anime, index }: Prop) {
   return (
-    <MotionDiv 
+    <MotionDiv
       variants={variants}
       initial='hidden'
       animate='visible'
